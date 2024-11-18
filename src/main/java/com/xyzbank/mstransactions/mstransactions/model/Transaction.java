@@ -1,17 +1,16 @@
 package com.xyzbank.mstransactions.mstransactions.model;
 
 import lombok.*;
-import org.springframework.data.annotation.Id;
+import org.bson.codecs.pojo.annotations.BsonId; //
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 
 @Data
 @Builder
-//@NoArgsConstructor
-//@AllArgsConstructor
-@Document(collection = "transactions")
+@Document(collection="transactions")
 public class Transaction {
-    @Id
+
+    @BsonId
     private String id;
     private String type;
     private Double amount;

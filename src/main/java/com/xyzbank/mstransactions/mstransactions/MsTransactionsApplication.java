@@ -10,5 +10,4 @@ public class MsTransactionsApplication {
 		SpringApplication.run(MsTransactionsApplication.class, args);
 	}
 
-
 }
