@@ -2,7 +2,7 @@
 
 ## 1. Diagrama de Componentes - Arquitectura de Microservicio mstransactions
 
-![XYZBankSystem_Transactions-Components Diagram_MsTransaction.jpg](src%2Fimgs%2FXYZBankSystem_Transactions-Components%20Diagram_MsTransaction.jpg)
+![XYZBankSystem_Components Diagram_MsTransaction.jpg](src%2Fimgs%2FXYZBankSystem_Components%20Diagram_MsTransaction.jpg)
 
 ## 2. Diagrama de Secuencia - Flujo de Comunicación mstransactions
 
