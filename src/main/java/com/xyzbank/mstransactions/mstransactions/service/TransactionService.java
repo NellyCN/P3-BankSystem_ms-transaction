@@ -4,11 +4,11 @@ import com.xyzbank.mstransactions.mstransactions.model.Transaction;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-//@Service
 public interface TransactionService {
 
-    public Flux<Transaction> getAllTransactions();
-    public Mono<Transaction> getTransaction(String id);
-    public Mono<Void> deleteTransaction(String id);
+    Flux<Transaction> getAllTransactions();  // Consultar historial de transacciones.
+    Mono<Transaction> deposit(Transaction transaction); // Realizar depósito.
+    Mono<Transaction> withdrawal(Transaction transaction); // Realizar retiro.
+    Mono<Transaction> transfer(Transaction transaction); // Realizar transferencia.
 
 }

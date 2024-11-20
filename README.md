@@ -9,6 +9,12 @@
 ![XYZBankSystem_SecuenceDiagram_Transactions.jpg](src%2Fimgs%2FXYZBankSystem_SecuenceDiagram_Transactions.jpg)
 
 ## 3. Requisitos Funcionales
++ Uso de OpenAPI (Contract First)
++ Desarrollo del microservicio para la gestión de transacciones.
++ Utilizar MongoDB para almacenar historial de transacciones de los Usuarios.
++ Cada documento representa una transacción con la información correspondiente.
++ Se aplican conceptos de POO, Programación funcional, Programación reactiva (Spring Webflux).
++ El sistema no tiene implementado interfaz gráfica, la verificación de funcionalidades se realizan utilizando Postman.
 
 ### 3.1 Funcionalidades del Sistema
 
@@ -26,16 +32,21 @@
 
 ### 3.3 Herramientas
 
-+ Aplicación de diagramas UMl, Drawio
++ Drawio (Diagramas UMl)
 + Java 17
 + IntelliJ IDEA
 + Maven
 + MongoDB
 + Postman
 
+### 3.4 Dependencias
++ Lombok
++ Spring Boot Starter Webflux
++ Spring Boot Starter Data Mongodb Reactive
+
 ## 4. Ejecución
 
-Ejecutar proyecto en el IDE y postman.
+Ejecutar proyecto en Postman y mensajes de respuesta en Terminal IDE.
 
 
 ## 4. MongoDB
@@ -44,4 +55,15 @@ Ejecutar proyecto en el IDE y postman.
 ![PorTipoyCtaDestino.png](src%2Fimgs%2FPorTipoyCtaDestino.png)
 
 ## 5. Postman
+
+![RegistroDeposito.png](src%2Fimgs%2FRegistroDeposito.png)
+![RegistroRetiro.png](src%2Fimgs%2FRegistroRetiro.png)
+![RegistroTransferencia.png](src%2Fimgs%2FRegistroTransferencia.png)
 ![HistorialTransactions.png](src%2Fimgs%2FHistorialTransactions.png)
+![HistorialUltimasTtransacciones.png](src%2Fimgs%2FHistorialUltimasTtransacciones.png)
+![RetiroSobreSaldo.png](src%2Fimgs%2FRetiroSobreSaldo.png)
+![TransferenciaSobreSaldo1000.png](src%2Fimgs%2FTransferenciaSobreSaldo1000.png)
+
+## 6. Terminal
+![RetiroSaldoInsuficiente.png](src%2Fimgs%2FRetiroSaldoInsuficiente.png)
+![TransferenciaSaldoInsuficiente.png](src%2Fimgs%2FTransferenciaSaldoInsuficiente.png)
